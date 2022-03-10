@@ -1,5 +1,6 @@
 import RepositoryItem from "./RepositoryItem";
 
+import "../styles/components/repositoryList.scss";
 function RepositoryList() {
   return (
     <section className="repository-list">

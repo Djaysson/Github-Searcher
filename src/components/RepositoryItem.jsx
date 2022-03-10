@@ -2,7 +2,7 @@ function RepositoryItem({ repository }) {
   return (
     <li>
       <strong>{repository}</strong>
-      <p>Forms in Reactjs</p>
+      <p>Lorem ipsum dolor sit</p>
       <a href="#">Acessar repositórios</a>
     </li>
   );
