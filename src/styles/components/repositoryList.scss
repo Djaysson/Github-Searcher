@@ -2,21 +2,25 @@ section.repository-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px;
 
   h1 {
     font-size: 35px;
-    margin-bottom: 16px;
+    margin: 25px 0;
   }
   ul {
     list-style: none;
+    width: 50%;
+
     li {
+      padding: 8px;
+      border: 1px solid;
+      border-color: #f24635 #a570fb;
       & + li {
         margin-top: 20px;
       }
       p {
         font-size: 14px;
-        color: #444;
+        color: #ffffffb2;
         margin-top: 8px;
       }
       a {
